@@ -13,5 +13,5 @@ PSP_LARGE_MEMORY = 1
 EXTRA_TARGETS = EBOOT.PBP
 PSP_EBOOT_TITLE = Our Aplication
 
-PSPDK= $(shell psp-config --pspdk-path)
-include $(PSPDK)/lib/build.mak
+PSPSDK= $(shell psp-config --pspsdk-path)
+include $(PSPSDK)/lib/build.mak
